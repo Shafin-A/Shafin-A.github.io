@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/portfolio/static/js/main.7b1dd2fe.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7b1dd2fe.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
-    "static/js/2.4a17821a.chunk.js": "/portfolio/static/js/2.4a17821a.chunk.js",
-    "static/js/2.4a17821a.chunk.js.map": "/portfolio/static/js/2.4a17821a.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.ae22a657206bee3a5953ac7af532469f.js": "/portfolio/precache-manifest.ae22a657206bee3a5953ac7af532469f.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/portfolio/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.4a17821a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4a17821a.chunk.js.LICENSE.txt",
-    "static/media/ShafinAhmedCV.pdf": "/portfolio/static/media/ShafinAhmedCV.9fcbc309.pdf",
-    "static/media/logo.svg": "/portfolio/static/media/logo.5d5d9eef.svg",
-    "static/media/myAvatar.png": "/portfolio/static/media/myAvatar.b9c8501c.png"
+    "main.css": "/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/static/js/main.d4cc1681.chunk.js",
+    "main.js.map": "/static/js/main.d4cc1681.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e5fc83a6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e5fc83a6.js.map",
+    "static/js/2.4a17821a.chunk.js": "/static/js/2.4a17821a.chunk.js",
+    "static/js/2.4a17821a.chunk.js.map": "/static/js/2.4a17821a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b4c31def7123dcf805880e4f7ebd3ed0.js": "/precache-manifest.b4c31def7123dcf805880e4f7ebd3ed0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.4a17821a.chunk.js.LICENSE.txt": "/static/js/2.4a17821a.chunk.js.LICENSE.txt",
+    "static/media/ShafinAhmedCV.pdf": "/static/media/ShafinAhmedCV.9fcbc309.pdf",
+    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg",
+    "static/media/myAvatar.png": "/static/media/myAvatar.b9c8501c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fb1b3dac.js",
+    "static/js/runtime-main.e5fc83a6.js",
     "static/js/2.4a17821a.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.7b1dd2fe.chunk.js"
+    "static/js/main.d4cc1681.chunk.js"
   ]
 }
