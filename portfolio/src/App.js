@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import Main from './Components/Main';
 import Resume from './Components/Resume';
 import { Switch, Route } from 'react-router-dom'
+import './App.css'
 
 function App() {
   return (
