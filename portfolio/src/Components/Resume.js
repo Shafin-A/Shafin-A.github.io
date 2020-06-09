@@ -4,15 +4,20 @@ import { withStyles } from '@material-ui/styles';
 import PropTypes from 'prop-types';
 
 const styles = theme => ({
-  resume: {
-  	position: 'absolute',
-  	top: 0,
-  	left: 0,
-  	bottom: 0,
-  	right: 0,
-  	width: '100%',
-  	height: '100%'
-  }
+	container: {
+		position: 'relative',
+		overflow: 'hidden',
+		paddingTop: '56.25%'
+	},
+	resume: {
+		position: 'absolute',
+		top: 0,
+		left: 0,
+		bottom: 0,
+		right: 0,
+		width: '100%',
+		height: '100%'
+	}
 });
 
 
@@ -26,12 +31,10 @@ export class Resume extends React.Component {
   	const { classes } = this.props; 
 
     return (
-      <div>
+      <div className={classes.container}>
         <iframe
         	className={classes.resume}
             src={resumePDF}
-            frameBorder="0"
-            scrolling="auto"
         ></iframe>
       </div>
     );
