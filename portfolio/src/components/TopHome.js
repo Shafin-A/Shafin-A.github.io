@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   	    padding: theme.spacing(6),
   	    color: 'white',
   	    backgroundColor: 'black',
-  	    opacity: '0.2',
+  	    opacity: '0.25',
   	},
 
 }));
@@ -28,7 +28,7 @@ export default function TopHome() {
 		<div>
 			<br />
   			<img className={classes.avatar} src={MyAvatarPng} alt="Shafin Ahmed" />
-  			<Grid container spacing={3}>
+  			<Grid container>
   				<Grid item xs={1}/>
   				<Grid item xs={10}>
   			        <Paper className={classes.paper}>
