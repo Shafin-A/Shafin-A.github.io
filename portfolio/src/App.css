@@ -37,16 +37,9 @@
   }
 }
 
-.react-pdf__Page__canvas {
-   position: absolute !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, 0%) !important;
-}
-
-.react-pdf__Page__textContent {
-    position: absolute !important;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%, 0%) !important;
+body {
+  background-image: url("./graphics/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
