@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import Main from './Components/Main';
-import Resume from './Components/Resume';
 import { Switch, Route } from 'react-router-dom'
 import './App.css'
 
@@ -10,7 +9,6 @@ function App() {
     <div className="App">
     	<Switch>
     		<Route exact path = "/" component = {Main} />
-    		<Route path = "/resume" component = {Resume} />
     	</Switch>
     </div>
   );

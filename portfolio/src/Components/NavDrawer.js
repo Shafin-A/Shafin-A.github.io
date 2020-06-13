@@ -11,7 +11,7 @@ import CodeIcon from '@material-ui/icons/Code';
 import ReceiptIcon from '@material-ui/icons/Receipt';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/styles';
-import { Link } from 'react-router-dom'
+import resumePDF from '../graphics/ShafinAhmedCV.pdf'
 
 const styles = theme => ({
   navdrawer: {
@@ -39,9 +39,10 @@ export class NavDrawer extends React.Component {
               <ListItemIcon style={{color: 'white'}}><HomeIcon /></ListItemIcon>
               <ListItemText primary="Home" />
             </ListItem>
-            <ListItem button key="Resume" component={Link} to="/resume" target="_blank">
+            <ListItem button component="a" href={resumePDF} target="_blank">
               <ListItemIcon style={{color: 'white'}}><ReceiptIcon /></ListItemIcon>
-              <ListItemText primary="Resume" />
+              <ListItemText primary="Resume">
+              </ListItemText>
             </ListItem>
             <ListItem button key="Projects">
               <ListItemIcon style={{color: 'white'}}><CodeIcon /></ListItemIcon>
