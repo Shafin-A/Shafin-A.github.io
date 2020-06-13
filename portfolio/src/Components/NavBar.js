@@ -17,9 +17,6 @@ const styles = theme => ({
   root: {
     flexGrow: 1,
   },
-  title: {
-    flexGrow: 1,
-  },
   appbar: {
     backgroundImage: "linear-gradient(to right, #304352, #000000)"
   }
@@ -55,7 +52,7 @@ export class NavBar extends React.Component {
                 <Avatar alt="Shafin Ahmed" src={MyAvatarPng} />
               </Link>
             </IconButton>
-            <Typography variant="h6" className={classes.title}>
+            <Typography variant="h6" >
               <Box fontWeight="fontWeightBold" m={1}>
                 Shafin Ahmed
               </Box>
