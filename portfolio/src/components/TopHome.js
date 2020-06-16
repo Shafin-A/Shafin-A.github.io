@@ -10,13 +10,15 @@ const useStyles = makeStyles((theme) => ({
   		borderRadius: '50%',
   		height: '18em',
   		weight: '12em',
-  		boxShadow: '0 0 8px 8px black inset'
+  		boxShadow: '0 0 8px 8px black inset',
+  		marginTop: '1.5rem',
   	},
   	paper: {
   	    padding: theme.spacing(6),
   	    color: 'white',
   	    backgroundColor: 'black',
   	    opacity: '0.25',
+  	    marginBottom: '8rem',
   	},
 
 }));
@@ -26,7 +28,6 @@ export default function TopHome() {
 
 	return (
 		<div>
-			<br />
   			<img className={classes.avatar} src={MyAvatarPng} alt="Shafin Ahmed" />
   			<Grid container>
   				<Grid item xs={1}/>

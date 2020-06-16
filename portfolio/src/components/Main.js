@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
-import TopHome from './TopHome'
+import TopHome from './TopHome';
+import Projects from './Projects';
 
 export class Main extends React.Component {
   render() {
@@ -8,6 +9,7 @@ export class Main extends React.Component {
       <React.Fragment>
       	<NavBar />
         <TopHome />
+        <Projects />
       </React.Fragment>
     );
   }
