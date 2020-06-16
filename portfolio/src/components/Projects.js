@@ -8,6 +8,9 @@ import ProjectCard from './ProjectCard'
 import flashpointpng from '../graphics/flashpoint.png';
 import TwoSpheresPlaneReflection from '../graphics/TwoSpheresPlaneReflection.png';
 import LWR_title_screen from '../graphics/LWR_title_screen.png';
+import mcgill from '../graphics/mcgill.png';
+import CGOS from '../graphics/CGOS.png';
+import compiler from '../graphics/compiler.png';
 
 const useStyles = makeStyles((theme) => ({
     paper: {
@@ -55,16 +58,30 @@ export default function Projects() {
                         title='Lost With Robot'
                         image={LWR_title_screen}
                         description="A 2D local cooperative puzzle game.
-                        Help a kid find and repair their robot's parts by solving puzzles and getting to the rocket ship at the end of each level."
+                        Help a child find and repair their robot's parts by solving puzzles and getting to the rocket ship at the end of each level."
                     />
                 </Grid>
                 <Grid item xs={12} sm={4} >
                     <ProjectCard 
-                        title='Ray Tracer'
-                        image={TwoSpheresPlaneReflection}
-                        description='A 3D ray tracer that renders scenes from XML file inputs.'
+                        title='McGill Course Visualizer'
+                        image={mcgill}
+                        description='A small script to display a graphical visualization of how all courses at a given program at McGill University are related.'
                     />
                 </Grid>
+                <Grid item xs={12} sm={4} >
+                    <ProjectCard 
+                        title='GoLite Compiler'
+                        image={compiler}
+                        description='A compiler for a significant subset of the Go programming language that generates equivalent executable Java code from the GoLite input.'
+                    />
+                </Grid>
+                <Grid item xs={12} sm={4} >
+                    <ProjectCard 
+                        title='Cruise Grocery Ordering System (CGOS)'
+                        image={CGOS}
+                        description='An application for managing a Cruise Grocery Ordering System (CGOS) database.'
+                    />
+                </Grid>               
             </Grid>
   	    </Container>
 	);
