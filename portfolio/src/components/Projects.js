@@ -13,11 +13,8 @@ import CGOS from '../graphics/CGOS.png';
 import compiler from '../graphics/compiler.png';
 
 const useStyles = makeStyles((theme) => ({
-    paper: {
-        padding: theme.spacing(6),
-        color: 'white',
-        backgroundColor: 'black',
-        opacity: '0.25',
+    container: {
+        marginBottom: '8rem',
     },
 }));
 
@@ -25,7 +22,7 @@ export default function Projects() {
 	const classes = useStyles()
 
 	return (
-		<Container>
+		<Container className={classes.container}>
             <Typography variant="h2" >
                 <Box fontWeight="fontWeightBold" >
                     PROJECTS
